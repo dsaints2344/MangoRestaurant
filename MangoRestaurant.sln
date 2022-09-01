@@ -1,8 +1,30 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{01038033-DF53-47FC-BDB3-E3757E87F3FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Web", "Mango.Web\Mango.Web.csproj", "{2F07D51F-FC38-49C3-9D0E-8A08C31B65F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{2F90D3BF-BF5A-4503-9D50-03367C1A27E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.ProductAPI", "Mango.Services.ProductAPI\Mango.Services.ProductAPI.csproj", "{AD5962A4-0EBF-47A4-8EAB-515989148581}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F07D51F-FC38-49C3-9D0E-8A08C31B65F1} = {01038033-DF53-47FC-BDB3-E3757E87F3FD}
+		{AD5962A4-0EBF-47A4-8EAB-515989148581} = {2F90D3BF-BF5A-4503-9D50-03367C1A27E4}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F07D51F-FC38-49C3-9D0E-8A08C31B65F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F07D51F-FC38-49C3-9D0E-8A08C31B65F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F07D51F-FC38-49C3-9D0E-8A08C31B65F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F07D51F-FC38-49C3-9D0E-8A08C31B65F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD5962A4-0EBF-47A4-8EAB-515989148581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD5962A4-0EBF-47A4-8EAB-515989148581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD5962A4-0EBF-47A4-8EAB-515989148581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD5962A4-0EBF-47A4-8EAB-515989148581}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
